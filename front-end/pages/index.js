@@ -28,7 +28,7 @@ export default function Home() {
   // Post request
   const handleCreatePost = async () => {
     try {
-      await axios.post("http://localhost:4000/users", {
+      await axios.post("http://localhost:4000/createUsers", {
         name,
         email,
         password,
